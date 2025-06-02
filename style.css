@@ -1,8 +1,107 @@
 body {
   display: flex;
+  font-family: Roboto, sans-serif;
 }
 
 .header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  background-color: #1f2937;
+  padding: 0 96px;
+}
+
+.header-logo {
+  display: flex;
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  gap: 16px;
+}
+
+a {
+  font-size: 18px;
+  color: #e5e7eb;
+  text-decoration: none;
+}
+
+.top-container {
+  background-color: #1f2937;
+  display: flex;
+}
+
+.top-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.top-title {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+}
+
+.top-txt {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+button {
+  width: 96px;
+  background-color: #3882f6;
+  color: #f9faf8;
+  border-radius: 6px;
+}
+
+.mid-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.mid-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+  padding: 16px;
+}
+
+.mid-box {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  padding-bottom: 32px;
+}
+
+.img-txt {
+  display: flex;
+  flex-direction: column;
+  width: 175px;
+  text-align: center;
+  gap: 8px;
+}
+
+.low-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #e5e7eb;
+}
+
+.quote {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 300;
+  color:#1f2937;
+}
+
+.citation {
+  font-weight: 900;
+  font-size: 24px;
 }
