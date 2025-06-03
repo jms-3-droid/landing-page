@@ -1,6 +1,5 @@
 body {
-  display: flex;
-  font-family: Roboto, sans-serif;
+  font-family: Roboto;
 }
 
 .header {
@@ -14,6 +13,7 @@ body {
 .header-logo {
   display: flex;
   font-size: 24px;
+  font-weight: 700;
   color: #f9faf8;
 }
 
@@ -29,14 +29,23 @@ a {
   text-decoration: none;
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
 .top-container {
   background-color: #1f2937;
   display: flex;
+  padding: 64px 96px;
+  gap: 128px;
+  justify-content: 
 }
 
 .top-left {
   display: flex;
   flex-direction: column;
+  justify-content: space-between
 }
 
 .top-title {
@@ -47,7 +56,7 @@ a {
 
 .top-txt {
   display: flex;
-  flex-wrap: wrap;
+  color: #e5e7eb;
 }
 
 button {
@@ -57,9 +66,14 @@ button {
   border-radius: 6px;
 }
 
+.top-img {
+  width: 350px;
+}
+
 .mid-container {
   display: flex;
   flex-direction: column;
+  padding: 48px;
 }
 
 .mid-title {
@@ -75,7 +89,7 @@ button {
 .mid-box {
   display: flex;
   justify-content: center;
-  gap: 16px;
+  gap: 32px;
   padding-bottom: 32px;
 }
 
@@ -92,6 +106,7 @@ button {
   flex-direction: column;
   justify-content: center;
   background-color: #e5e7eb;
+  padding: 96px 128px;
 }
 
 .quote {
@@ -102,6 +117,32 @@ button {
 }
 
 .citation {
+  font-weight: 900;
+  font-size: 24px;
+  margin-left: auto;
+}
+
+.foot-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 96px;
+}
+
+.footer {
+  display: flex;
+  background-color: #3882f6;
+  padding: 36px 128px;
+  justify-content: space-between;
+  align-items: center;
+  gap: 128px
+}
+
+.call {
+  color:#f9faf8;
+}
+
+.call-title {
   font-weight: 900;
   font-size: 24px;
 }
